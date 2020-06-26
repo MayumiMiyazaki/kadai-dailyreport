@@ -50,17 +50,3 @@
 <p><a href="<c:url value='/employees/new'/>">新規従業員の登録</a></p>
 </c:param>
 </c:import>
-
-
-</tbody>
-</table>
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>Insert title here</title>
-    </head>
-    <body>
-
-    </body>
-</html>
