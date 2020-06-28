@@ -30,7 +30,7 @@
 <tr>
 <th>登録日時</th>
 <td>
-<fmt:formatDate value="${employee.create_at}" pattern="yyyy-MM-dd HH:mm:ss" />
+<fmt:formatDate value="${employee.created_at}" pattern="yyyy-MM-dd HH:mm:ss" />
 </td>
  </tr>
  <tr>
@@ -48,7 +48,7 @@
     <h2>お探しのデータは見つかりませんでした。</h2>
     </c:otherwise>
     </c:choose>
-    <p><a href="<c:url value='/employees/inex'/>">一覧に戻る</a></p>
+    <p><a href="<c:url value='/employees/index'/>">一覧に戻る</a></p>
     </c:param>
     </c:import>
 
